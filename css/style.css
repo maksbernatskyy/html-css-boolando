@@ -120,6 +120,10 @@ main.container{
     top: 5px;
     right: 0;
     z-index: 1;
+
+    &:hover{
+        color: #ff0000;
+    }
 }
 
 .label{
