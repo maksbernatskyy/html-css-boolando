@@ -6,12 +6,49 @@
     box-sizing: border-box;
 }
 
+/*Debug*/
+
+.debug .text{
+    height: 50px;
+    background-color: red;
+}
+
 /*Generics*/
 
 body{
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img{
     max-width: 100%;
+}
+
+header{
+    padding-top: 20px;
+    height: 60px;
+    background-color: #ff6900;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.75rem;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+/*Utils*/
+
+.container{
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
