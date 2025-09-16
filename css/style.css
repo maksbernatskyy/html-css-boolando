@@ -122,26 +122,28 @@ main.container{
     z-index: 1;
 }
 
-.dsc{
-    background-color: #ff0000;
+.label{
     color: white;
     font-size: 0.75rem;
     padding: 1px 6px;
     position: absolute;
     bottom: 40px;
-    left: 0;
     z-index: 1;
+}
+
+.dsc{
+    background-color: #ff0000;
+    left: 0;
 }
 
 .sostenibility{
     background-color: #008000;
-    color: white;
-    font-size: 0.75rem;
-    padding: 1px 6px;
-    position: absolute;
-    bottom: 40px;
-    left: 0px;
-    z-index: 1;
+    left: 42px;
+}
+
+.only-sostenibility{
+    background-color: #008000;
+    left: 0;
 }
 
 .web-a{
@@ -150,9 +152,6 @@ main.container{
     &:hover{
         opacity: 0;;
     }
-}
-
-.web-b{
 }
 
 .ladder{
