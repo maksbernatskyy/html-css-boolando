@@ -1,0 +1,154 @@
+/*CSS Reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Generics*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 1200px;
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    padding-top: 20px;
+    height: 60px;
+    background-color: #ff6900;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.75rem;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+footer{
+    background-color: black;
+    height: 80px;
+    padding-top: 20px;
+    line-height: 20px;
+    margin-top: 30px;
+
+    a{
+        margin: 0 2px;
+    }
+
+    p{
+        color: white;
+        font-size: 0.75rem;
+        font-weight: bold;
+    }
+}
+
+/*Utils*/
+
+.container{
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photo{
+    margin-top: 100px;
+    position: relative;
+    width: 340px;
+    left: 35%;
+}
+
+.model{
+    width: 340px;
+}
+
+.brand{
+    font-size: 12px;
+}
+
+.characteristics{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cost{
+    display: inline-block;
+    font-size: 12px;
+    color: #ff6900;
+    font-weight: bold;
+}
+
+.discount{
+    display: inline-block;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.big-a{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.heart{
+    padding: 5px;
+    background-color: white;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    z-index: 1;
+
+    &:hover{
+        color: #ff0000;
+    }
+}
+
+.label{
+    color: white;
+    font-size: 0.75rem;
+    padding: 1px 6px;
+    position: absolute;
+    bottom: 80px;
+    z-index: 1;
+}
+
+.dsc{
+    background-color: #ff0000;
+    left: 0;
+}
+
+.sostenibility{
+    background-color: #008000;
+    left: 42px;
+}
+
+.only-sostenibility{
+    background-color: #008000;
+    left: 0;
+}
+
+.web-a{
+    position: absolute;
+
+    &:hover{
+        opacity: 0;;
+    }
+}
+
+.ladder{
+    width: 340px;
+    position: relative;
+}
