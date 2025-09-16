@@ -8,11 +8,6 @@
 
 /*Debug*/
 
-.debug .text{
-    height: 50px;
-    background-color: red;
-}
-
 /*Generics*/
 
 body{
@@ -51,4 +46,39 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+main.container{
+    margin-top: 40px;
+}
+
+.card{
+    display: inline-block;
+    margin: 8px;
+}
+
+.model{
+    width: 340px;
+}
+
+.brand{
+    font-size: 12px;
+}
+
+.characteristics{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cost{
+    display: inline-block;
+    font-size: 12px;
+    color: #ff6900;
+    font-weight: bold;
+}
+
+.discount{
+    display: inline-block;
+    font-size: 12px;
+    text-decoration: line-through;
 }
