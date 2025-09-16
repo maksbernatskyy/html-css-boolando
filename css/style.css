@@ -12,6 +12,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    min-width: 1200px;
 }
 
 img{
@@ -50,6 +51,10 @@ a{
 
 main.container{
     margin-top: 40px;
+}
+
+.box{
+    white-space: nowrap;
 }
 
 .card{
