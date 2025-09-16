@@ -35,6 +35,24 @@ a{
     }
 }
 
+footer{
+    background-color: black;
+    height: 80px;
+    padding-top: 20px;
+    line-height: 20px;
+    margin-top: 30px;
+
+    a{
+        margin: 0 2px;
+    }
+
+    p{
+        color: white;
+        font-size: 0.75rem;
+        font-weight: bold;
+    }
+}
+
 /*Utils*/
 
 .container{
@@ -86,4 +104,9 @@ main.container{
     display: inline-block;
     font-size: 12px;
     text-decoration: line-through;
+}
+
+.big-a{
+    font-size: 1rem;
+    font-weight: bold;
 }
