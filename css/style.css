@@ -6,8 +6,6 @@
     box-sizing: border-box;
 }
 
-/*Debug*/
-
 /*Generics*/
 
 body{
@@ -80,6 +78,10 @@ main.container{
     margin: 8px;
 }
 
+.photo{
+    position: relative;
+}
+
 .model{
     width: 340px;
 }
@@ -109,4 +111,51 @@ main.container{
 .big-a{
     font-size: 1rem;
     font-weight: bold;
+}
+
+.heart{
+    padding: 5px;
+    background-color: white;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    z-index: 1;
+}
+
+.dsc{
+    background-color: #ff0000;
+    color: white;
+    font-size: 0.75rem;
+    padding: 1px 6px;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    z-index: 1;
+}
+
+.sostenibility{
+    background-color: #008000;
+    color: white;
+    font-size: 0.75rem;
+    padding: 1px 6px;
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+    z-index: 1;
+}
+
+.web-a{
+    position: absolute;
+
+    &:hover{
+        opacity: 0;;
+    }
+}
+
+.web-b{
+}
+
+.ladder{
+    width: 340px;
+    position: relative;
 }
